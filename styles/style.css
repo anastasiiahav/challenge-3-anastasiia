@@ -1,0 +1,164 @@
+/* Algemeen */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Montserrat', 'Lato', Verdana;
+	color: #FFFFFF;
+	background-color: #21203d;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	height: 650px;
+}
+
+/* Tekst */
+h1 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 30px;
+}
+
+p.over {
+	font-weight: normal;
+	font-style: italic;
+	margin-left: 12px;
+	margin-right: 12px;
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+
+p.weather {
+	font-style: italic;
+}
+
+div.text {
+	margin-bottom: 20px;
+	background-color: #3a3b5d;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+/* Map */
+#map {
+	width: 100%;
+	height: 450px;
+}
+
+/* S */
+@media only screen and (min-width: 600px) {	
+	/* Algemeen*/
+	.content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+		height: 750px;
+	}
+
+	/* Tekst */
+	h1 {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		text-align: center;
+		font-size: 35px;
+	}
+
+	p.over {
+		font-weight: normal;
+		font-style: italic;
+		margin-top: 30px;
+		margin-left: 16px;
+		margin-right: 16px;
+		margin-bottom: 20px;
+		font-size: 20px;
+	}
+
+	/* Map */
+	#map {
+		width: 100%;
+		height: 550px;
+	}
+}
+
+/* M */
+@media only screen and (min-width: 900px) {
+	/* Algemeen*/
+	.content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+		height: 750px;
+	}
+
+	/* Tekst */
+	h1 {
+		margin-top: 40px;
+		margin-bottom: 20px;
+		text-align: center;
+		font-size: 40px;
+	}
+
+	p.over {
+		font-weight: normal;
+		font-style: italic;
+		margin-top: 20px;
+		margin-left: 20px;
+		margin-right: 20px;
+		font-size: 20px;
+	}
+
+	/* Map */
+	#map {
+		width: 100%;
+		height: 600px;
+	}
+}
+
+/* L */
+@media only screen and (min-width: 1200px) {
+	/* Algemeen*/
+	.content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+		height: 800px;
+	}
+
+	/* Tekst */
+	h1 {
+		margin-top: 40px;
+		text-align: center;
+		font-size: 30px;
+	}
+
+	p.over {
+		font-weight: normal;
+		font-style: italic;
+		margin-top: 30px;
+		margin-left: 12px;
+		margin-right: 12px;
+		margin-bottom: 30px;
+		font-size: 20px;
+	}
+
+	/* Map */
+	#map {
+		width: 100%;
+		height: 600px;
+	}
+}
+
